@@ -1,0 +1,256 @@
+@font-face {
+    font-family: montserratBlack;
+    src: url(../assets/fonts/montserrat.otf);
+}
+
+@font-face {
+    font-family: montserratDefault;
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: gray;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* header */
+
+.navbar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    padding: 3.5em 5em;
+    width: 150px;
+}
+
+.nav-buttons {
+    padding: 3.5em 15em 3.5em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: 24B98F;
+}
+
+.nav-btn {
+    border: none;
+    padding: 16px;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: montserratBlack;
+    background-color: #24B98F;
+    color: rgb(42,42,110);
+}
+
+/* main */
+
+.title-content {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-h3, .title-h1, .title-h4 {
+    color: black;
+}
+
+.title-h1 {
+    font-size: 6.5em;
+    font-family: montserratBlack;
+}
+
+.title-h3 {
+    font-size: 1.5em;
+    font-family: montserratBlack;
+    top: 15px;
+    left: 5px;
+    position: relative;
+}
+
+.title-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.title-h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: montserratDefault;
+    padding: 4px;
+}
+
+.title-cta {
+    margin: 60px;
+    width: 360px;
+    height: 60px;
+    font-family: montserratBlack;
+    font-size: 1.5em;
+    background-color: #24B98F;
+    color: rgb(42,42,110);
+    border-radius: 15px;
+    border: none;
+}
+
+/* popular */
+
+.section-popular {
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.article-popular {
+    border-radius: 15px;
+    width: 23vw;
+    height: 60vh;
+    background-color: #24B98F;
+}
+
+/* news */
+
+.section-news {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(42,42,110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.article-news{
+    border-radius: 15px;
+    width: 30vw;
+    height: 50vh;
+    background-color: white;
+}
+
+/* comments */
+
+.section-comments {
+    width: 100vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side {
+    width: 97vw;
+    height: 64vh;
+    background-color: white;
+    outline: solid 2px rgb(42,42,110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.aside-comments {
+    width: 25vw;
+    height: 64vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-family: montserratBlack;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.table-comments {
+    width: 64vw;
+    height: 55vh;
+    background-color: white;
+    border-radius: 15px;
+    outline: solid 2px rgb(42,42,110);
+    display: grid;
+    padding: 16px;
+    grid-template-areas: "top top top"
+                        "bot bot bot" ;
+}
+
+.article-comment {
+    width: 20vw;
+    height: 25vh;
+    background-color: black;
+    justify-self: center;
+    align-self: center;
+    border-radius: 15px;
+}
+
+/* contact */
+
+.contact-info {
+    width: 100vw;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: solid 2px rgb(42,42,110);
+}
+
+.footer-top {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 0em 2em;
+}
+
+.footer-bot {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em 2em 2em;
+}
+
+.rrss {
+    display: flex;
+    width: 300px;
+    font-family: montserratDefault;
+    font-weight: 700;
+    font-size: 1.5em;
+    align-items: center;
+    gap: 8px;
+    padding: 0em 5em 0em 2em;
+}
+
+.contact-icon {
+    width: 60px;
+}
