@@ -53,7 +53,8 @@ body::-webkit-scrollbar {
 /* main */
 
 .title-content {
-    background-color: white;
+    background: url(../assets/img/backgroundjpg.jpg);
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -253,4 +254,71 @@ body::-webkit-scrollbar {
 
 .contact-icon {
     width: 60px;
+}
+
+/* imgs */
+
+.popular-1 {
+    background: url(../assets/img/popular_1.png);
+    background-size: cover;
+}
+
+.popular-2 {
+    background: url(../assets/img/popular_2png.png);
+    background-size: cover;
+}
+
+.popular-3 {
+    background: url(../assets/img/popular_3png.png);
+    background-size: cover;
+}
+
+.popular-4 {
+    background: url(../assets/img/popular_4png.png);
+    background-size: cover;
+}
+
+.news-1 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.news-2 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.news-3 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-1 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-2 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-3 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-4 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-5 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
+}
+
+.comment-6 {
+    background: url(../assets/img/grid_1png.png);
+    background-size: cover;
 }
